@@ -6,7 +6,7 @@
 /*   By: ncharret <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/04/28 16:27:38 by ncharret          #+#    #+#             */
-/*   Updated: 2015/07/03 15:04:37 by ncharret         ###   ########.fr       */
+/*   Updated: 2016/10/10 15:24:25 by ncharret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,9 +76,9 @@ int			main(int ac, char **av)
 	init_opengl();
 	mesh = load_model(av[1], ac > 2 ? av[2] : NULL);
 	programid[0] = loadshader("colorvertexshader.vertexshader",
-			"colorfragmentShader.fragmentshader");
+			"colorfragmentshader.fragmentshader");
 	programid[1] = loadshader("texturevertexshader.vertexshader",
-			"texturefragmentShader.fragmentshader");
+			"texturefragmentshader.fragmentshader");
 	mvp.modelmtx[0] = glGetUniformLocation(programid[0], "SCALE");
 	mvp.modelmtx[1] = glGetUniformLocation(programid[0], "TRANS");
 	mvp.projmtx = glGetUniformLocation(programid[0], "PROJECTION");

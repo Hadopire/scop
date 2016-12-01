@@ -6,13 +6,13 @@
 /*   By: ncharret <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/05/05 16:22:04 by ncharret          #+#    #+#             */
-/*   Updated: 2015/07/03 14:29:27 by ncharret         ###   ########.fr       */
+/*   Updated: 2016/12/01 15:30:57 by ncharret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "scop.h"
 
-void create_scale_matrix(t_matrix mtx, float factor)
+void	create_scale_matrix(t_matrix mtx, float factor)
 {
 	mtx[0][0] = factor;
 	mtx[0][1] = 0;

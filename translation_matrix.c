@@ -6,13 +6,13 @@
 /*   By: ncharret <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/04/28 19:37:49 by ncharret          #+#    #+#             */
-/*   Updated: 2015/07/03 14:26:21 by ncharret         ###   ########.fr       */
+/*   Updated: 2016/12/01 15:31:06 by ncharret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "scop.h"
 
-void create_translation_matrix(t_vector vtc, t_matrix mtx)
+void	create_translation_matrix(t_vector vtc, t_matrix mtx)
 {
 	mtx[0][0] = 1;
 	mtx[0][1] = 0;

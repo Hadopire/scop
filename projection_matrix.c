@@ -6,13 +6,13 @@
 /*   By: ncharret <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/05/05 14:08:41 by ncharret          #+#    #+#             */
-/*   Updated: 2015/07/03 14:27:57 by ncharret         ###   ########.fr       */
+/*   Updated: 2016/12/01 15:30:46 by ncharret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "scop.h"
 
-void create_projection_matrix(t_matrix mtx, t_camconfig cfg)
+void	create_projection_matrix(t_matrix mtx, t_camconfig cfg)
 {
 	float focal_length;
 
